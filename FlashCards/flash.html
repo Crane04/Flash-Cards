@@ -13,6 +13,7 @@
         <div class="btns">
             <button id="addCard" onclick="add()">Add Card</button>
             <button id="clearCards" onclick="clearCards()">Clear Cards</button>
+            <button onclick="how()">How To Use</button>
         </div>
     </div>
    <div class="container">
@@ -25,9 +26,18 @@
         <textarea id="answer"></textarea>
         <button onclick="save()">Save</button>
         <button onclick="end()">End</button>
+        
     </div>
    </div>
    <script>
+    function how(){
+        alert(`Click on "Add Card" to Add a Flash Card.
+Click on "Clear Cards" to delete all Cards.
+Click on "End" to update all your answers.
+Click on "Edit" to edit the Question and Answers of the FlashCards.
+Click on "Delete" to delete a Card
+` )
+    }
     //retrieve questions and answers from local storage
     let myQsts = localStorage.getItem('Qsts') ? JSON.parse(localStorage.getItem('Qsts')) : [];
     
