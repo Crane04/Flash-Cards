@@ -27,7 +27,7 @@ body{
 .createCardBox{
     text-align: center;
     margin: 0 auto;
-    width: 350px;
+    width: 200px;
     padding: 5px 15px;
     background-color: #ddd;
     border: 1px solid #ddd;
@@ -84,6 +84,7 @@ label{
     cursor: pointer;
     
 }
+
 
 .container{
     
