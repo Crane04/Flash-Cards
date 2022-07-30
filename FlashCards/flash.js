@@ -3,7 +3,8 @@ function how(){
 Click on "Clear Cards" to delete all Cards.
 Click on "End" to update all your answers.
 Click on "Edit" to edit the Question and Answers of the FlashCards.
-Click on "Delete" to delete a Card
+Click on "Delete" to delete a Card.
+Double Click on a Flash Card to view it's answer.
 ` )
 }
 //retrieve questions and answers from local storage
